@@ -1,0 +1,219 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: SpotifyMixUITitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif);
+}
+nav{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+nav div+div{
+    width: 40%;
+
+}
+nav div{
+    height: 50px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+nav ol{
+    list-style: none;
+    height: 49px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 16px;
+    font-weight: 700;
+    width: 100%;
+
+}
+nav svg{
+    height: 30px;
+    fill: white;
+}
+
+main{
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: url(./assets/desktop-hero.jpeg) center 40% / 100% no-repeat;
+
+}
+main div{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+main button{
+    width: 26%;
+    height: 50px;
+   border-radius: 25px;
+   border: none;
+   font-size: 17px;
+   font-weight: 700;
+   background-color: white;
+}
+main h1{
+    font-size: 60px;
+    letter-spacing: -3px;
+    color: white;
+}
+#sec1{
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#sec1 h1{
+    font-size: 40px;
+}
+#sec1 aside{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+}
+#sec1 div{
+    height: 300px;
+    width: 240px;
+}
+#sec1 p{
+    line-height: 25px;
+}
+#sec2{
+    height: 450px;
+    background-color: rgb(30, 215, 96);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+}
+#sec2 div{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sec2 h1{
+    font-size: 50px;
+}
+#sec3{
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#sec3 summary{
+    height: 70px;
+    list-style: flex;
+    align-items: center;
+    font-size: 18px;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    font-weight: 700;
+    padding-left: 24px;
+}
+#sec3 summary:hover{
+    cursor: pointer;
+    background-color: white;
+}
+#sec3 p{
+    padding: 20px;
+    line-height: 23px;
+}
+#sec3 b{
+    color: green;
+}
+#sec4{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: url(./assets/tablet-closing.jpeg) center 40% / 100% no-repeat;
+}
+#sec4 div{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+#sec4 h1{
+    font-size: 60px;
+    letter-spacing: -3px;
+    color: white;
+}
+#sec4 button{
+    width: 26%;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: white;
+
+}
+
+footer{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+footer aside{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 300px;
+}
+footer ol{
+    list-style: none;
+    line-height: 40px;
+}
+#lastdiv{
+        width: 200px;
+}
+#lastdiv ol{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    
+    li{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 25px;
+        background-color: #222326;
+        color: white;
+    }
+}
+footer ol>li:first-child{
+    color: gray;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+footer ol>li+li:hover{
+    color: rgb(30, 215, 96);
+    cursor: pointer;
+}
